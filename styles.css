@@ -1,0 +1,12 @@
+.grid-container {
+    border: 6px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+.grid-item {
+    border: 6px solid black;
+    grid-column: span 1;
+    grid-row: span 1;
+}
